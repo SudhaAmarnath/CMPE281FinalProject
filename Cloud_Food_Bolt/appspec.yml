@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: /original-Food_Bolt-0.0.1-SNAPSHOT.jar
+    destination: /tmp/original-Food_Bolt-0.0.1-SNAPSHOT.jar
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_application
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start_application
+      timeout: 300
+      runas: root
+      
