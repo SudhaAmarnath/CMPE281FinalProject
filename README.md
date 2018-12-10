@@ -4,7 +4,6 @@ Food Bolt is a single window platform for Table Reservation and Pre-ordering foo
 
 
 
-
 CMPE 281 CLOUD TECHNOLOGIES
 
 PROJECT - II
