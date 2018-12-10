@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /Cloud_Food_Bolt/target/original-Food_Bolt-0.0.1-SNAPSHOT.jar
-    destination: /tmp/original-Food_Bolt-0.0.1-SNAPSHOT.jar
+    destination: /tmp/
 hooks:
   BeforeInstall:
     - location: Server/install_dependencies
